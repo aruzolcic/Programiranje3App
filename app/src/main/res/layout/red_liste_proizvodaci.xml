@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+            <TextView
+                android:id="@+id/marka1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Marka automobila:"/>
+
+            <TextView
+                android:id="@+id/marka"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/marka1"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorAccent"
+                />
+
+
+
+            <TextView
+                android:id="@+id/proizvodac1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marka"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Proizvođač automobila:"/>
+            <TextView
+                android:id="@+id/proizvodac"
+                android:layout_below="@id/proizvodac1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="13sp"
+                />
+
+
+            <TextView
+                android:id="@+id/sjediste1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/proizvodac"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Sjedište tvrtke:"/>
+            <TextView
+                android:id="@+id/sjediste"
+                android:layout_below="@id/sjediste1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="13sp"
+                />
+
+            <TextView
+                android:id="@+id/opis1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sjediste"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Opis u ontologiji:"/>
+            <TextView
+                android:id="@+id/opis"
+                android:layout_below="@id/opis1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="13sp"
+                />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@id/opis"/>
+        </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
